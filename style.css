@@ -27,7 +27,7 @@ body {
   .tile-image {
     height: 550px;
     float: left;
-    margin-right: 50px;
+    margin-right: 5px;
   }
   
   .card {
