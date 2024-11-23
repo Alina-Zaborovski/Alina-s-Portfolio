@@ -3,50 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Alina Zaborovski - Portfolio</title>
 </head>
+
 <body>
-    <h1>Alina Zaborovski - My Project Portfolio</h1>
-    <h2>Introduction</h2>
+    <div class="main">
+    <h1>Alina Zaborovski - My Project <span class="portfolio">Portfolio</span></h1>
     <p>
+    <h4>   
         Hello, my name is Alina. Welcome to my site!<br>
          Here, you'll find a portfolio of the projects I've worked on and created throughout my career as a technical writer.<br>
+        </h4>
     </p>
-    <p>
-        <h2>Projects</h2>
-        <p>
-            My projects include mostly user manuals written with the target audiance in mind, and also templates for new technical writers in our company, 
-            created in order to create a comprehensive and coherent writing style that is accurate, detailed, efficient but also phrased in a user friendly manner.
+
+    <div class="left card"><img class="tile-image" src=".\Figures\Manual.png" alt="manual example">
+        <h2 class="card-title">Operator Manual</h2>
+        <p class="card-text">
+            This chapter, which is part of a larger maintenance manual authored in Madcap Flare, was created through research and collaboration 
+            with the software engineers at Elbit.</br>
+        </br>
+            It introduces the maintenance crew, who have a basic familiarity with the software, to its maintenance capabilities.</br>
+            The chapter features technical descriptions I distilled from the research, along with screenshots provided by the engineering team for added clarity. </br>
         </p>
-        <ol>
-            <h3><li>System Maintenance Manual</li></h3>
-                <p>
-                    This project demonstrates my ability to collect and organize technical information, simplify complex processes, and actively participate in field procedures.<br> 
-                    For this operational manual, aimed at technicians and mechanics of a specific weapon system, I gathered data from expert engineers, performed and recorded the procedures, 
-                    and created models using SolidWorks.<br>
-                    After conducting and modeling the procedures, I developed a clear, well-structured manual tailored to the operators' needs, 
-                    ensuring accuracy and ease of use for the target audience.<br>
-                    <hr>
-                    <img src="1.png" alt="Shaft Encoder Replacement">
-                    <hr>
-                    <center><caption><h4>Maintenance Procedure</h4></caption></center> 
-                
-                    <h3><li>Writing Template</li></h3>
-                    <p>
-                        At Puzzle Projects, I identified the need for a consistent and professional writing template to standardize the phrasing and ensure uniformity across all manuals.<br>
-                        To address this, I reviewed manuals authored by various technical writers within the company and developed a comprehensive template, including a style guide.<br>
-                        This guide was designed to train new writers in the company’s writing style, ensuring clear, accurate, and consistent documentation throughout our projects.<br>
-                        Additionally, the template was created with macros, allowing writers to customize the macros to suit specific project requirements.<br>
-                        <hr>
-                        <img src="2.png" alt="Shaft Encoder Replacement">
-                        <hr>
-                        <center><caption><h4>Writing Template Example 1</h4></caption></center> 
-                        <hr>
-                        <img src="3.png" alt="Shaft Encoder Replacement">
-                        <hr>
-                        <center><caption><h4>Writing Template Example 2</h4></caption></center> 
-                    </p>
-        </ol>
-    </p>
+      </div>
+  
+      <div class="right card"><img class="tile-image" src=".\Figures\Template.png" alt="writing template example">
+        <h2 class="card-title">Writing Template & Style Guide</h2>
+        <p>
+            This is a Word Macro document I developed to introduce new writers on our team to the company’s writing style, style guide and standards.</br>
+        </br>
+            If you wish to enable all the document macros, right-click on the document file and select the "Unblock" checkbox, </br>
+            then click the "Enable Content" button on the upper ribbon.</br>
+            The macros are designed to provide instructions and automatically apply the relevant styles to your input.</br>
+        </p>
+      </div>
+
+    </div>
+
+
+        
 </body>
 </html>
