@@ -75,6 +75,7 @@ body {
       width: 100%;
       display: inline;
       object-fit: cover;
+      border-radius: 20%;
     }
   }
   
